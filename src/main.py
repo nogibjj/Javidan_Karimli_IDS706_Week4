@@ -10,4 +10,4 @@ def get_os_and_sys_version():
 
 
 if __name__ == '__main__':
-    print(os_and_sys_version())
+    print(get_os_and_sys_version())
