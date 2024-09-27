@@ -9,5 +9,5 @@ def get_os_and_sys_version():
     return python_version, os_name
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(get_os_and_sys_version())
