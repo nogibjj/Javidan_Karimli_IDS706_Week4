@@ -3,7 +3,7 @@ import sys
 import re
 
 
-def os_and_sys_version():
+def get_os_and_sys_version():
     python_version = re.search(r"\d+\.\d+", sys.version).group()
     os_name = os.getenv("RUNNER_OS")
     return python_version, os_name
