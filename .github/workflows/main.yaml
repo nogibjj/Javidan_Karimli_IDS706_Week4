@@ -25,7 +25,7 @@ jobs:
           python-version: '3.12.5'  
 
       - name: Create environment 
-        run: make setup
+        run: make install
 
       - name: Format
         run: make format
